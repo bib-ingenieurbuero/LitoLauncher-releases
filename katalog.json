@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "programme": [
+    {
+      "id": "bib",
+      "name": "BIB Lito",
+      "beschreibung": "Beweissicherung, Kartierung und Aufmaß für Bauprojekte",
+      "repo": "bib-ingenieurbuero/BIBLito-releases",
+      "installerArt": "velopack",
+      "setupAsset": "BIBLito-win-Setup.exe",
+      "stilleArgumente": "--silent",
+      "erstinstallationsArgumente": "--silent",
+      "kanaele": { "stabil": { "vorabversionen": false }, "test": { "vorabversionen": true } },
+      "gesperrteVersionen": [],
+      "updateInfoDatei": "releases.win.json",
+      "erkennung": {
+        "exe": "BIBLito.exe",
+        "anzeigeName": "BIB Lito",
+        "velopackOrdner": "BIBLito",
+        "bekanntePfade": []
+      },
+      "symbol": { "kuerzel": "BIB", "farbe": "#F26B2A" },
+      "selbstUpdate": { "aktiv": true, "abVersion": "0.2.2" }
+    },
+    {
+      "id": "ava",
+      "name": "AVALito",
+      "beschreibung": "Ausschreibung, Vergabe und Abrechnung",
+      "repo": "ing-bassam/AVALito-releases",
+      "installerArt": "nsis",
+      "setupAsset": "AVALito-{v}-Setup.exe",
+      "stilleArgumente": "/S --updated",
+      "erstinstallationsArgumente": "/S",
+      "kanaele": { "stabil": { "vorabversionen": false }, "test": { "vorabversionen": true } },
+      "gesperrteVersionen": [],
+      "updateInfoDatei": "latest.yml",
+      "erkennung": {
+        "exe": "AVALito.exe",
+        "anzeigeName": "AVALito",
+        "bekanntePfade": [
+          "%LOCALAPPDATA%\\Programs\\AVALito\\AVALito.exe",
+          "%ProgramFiles%\\AVALito\\AVALito.exe"
+        ]
+      },
+      "symbol": { "kuerzel": "AVA", "farbe": "#2A7DF2" },
+      "selbstUpdate": { "aktiv": true, "abVersion": "0.3.2" }
+    },
+    {
+      "id": "pdf",
+      "name": "PDFLito",
+      "beschreibung": "PDF-Werkzeuge für das Büro",
+      "repo": "bib-ingenieurbuero/PDFLito-releases",
+      "installerArt": "inno",
+      "setupAsset": "PDFLito-Setup-{v}.exe",
+      "stilleArgumente": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /MERGETASKS=\"!desktopicon\"",
+      "erstinstallationsArgumente": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /CURRENTUSER /MERGETASKS=\"pdfopenwith,!desktopicon\"",
+      "kanaele": { "stabil": { "vorabversionen": false }, "test": { "vorabversionen": true } },
+      "gesperrteVersionen": [],
+      "updateInfoDatei": "SHA256SUMS.txt",
+      "erkennung": {
+        "exe": "pdflito.exe",
+        "anzeigeName": "PDFLito",
+        "bekanntePfade": [
+          "%LOCALAPPDATA%\\Programs\\PDFLito\\pdflito.exe",
+          "%ProgramFiles%\\PDFLito\\pdflito.exe",
+          "D:\\PDFLito\\pdflito.exe"
+        ],
+        "weitereExe": ["pdflito-cli.exe"]
+      },
+      "symbol": { "kuerzel": "PDF", "farbe": "#D93A3A" },
+      "selbstUpdate": { "aktiv": false }
+    }
+  ]
+}
