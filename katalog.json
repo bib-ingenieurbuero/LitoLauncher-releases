@@ -69,6 +69,29 @@
       },
       "symbol": { "kuerzel": "PDF", "farbe": "#D93A3A" },
       "selbstUpdate": { "aktiv": false }
+    },
+    {
+      "id": "projectlito",
+      "name": "ProjectLito",
+      "beschreibung": "Bauablaufplanung und Bauzeitenpläne",
+      "repo": "bib-ingenieurbuero/ProjectLito-releases",
+      "installerArt": "nsis",
+      "setupAsset": "ProjectLito-Setup-{v}.exe",
+      "stilleArgumente": "/S",
+      "erstinstallationsArgumente": "/S",
+      "kanaele": { "stabil": { "vorabversionen": false }, "test": { "vorabversionen": true } },
+      "gesperrteVersionen": [],
+      "updateInfoDatei": "latest.yml",
+      "erkennung": {
+        "exe": "ProjectLito.exe",
+        "anzeigeName": "ProjectLito",
+        "bekanntePfade": [
+          "%LOCALAPPDATA%\\Programs\\ProjectLito\\ProjectLito.exe",
+          "%ProgramFiles%\\ProjectLito\\ProjectLito.exe"
+        ]
+      },
+      "symbol": { "kuerzel": "PL", "farbe": "#1A6B3C" },
+      "selbstUpdate": { "aktiv": false }
     }
   ]
 }
