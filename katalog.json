@@ -92,6 +92,29 @@
       },
       "symbol": { "kuerzel": "PL", "farbe": "#1A6B3C" },
       "selbstUpdate": { "aktiv": false }
+    },
+    {
+      "id": "cad",
+      "name": "CADLito",
+      "beschreibung": "CAD-Zeichnen mit Aufmaß und GAEB-Export (X31)",
+      "repo": "ing-bassam/CADLito-releases",
+      "installerArt": "inno",
+      "setupAsset": "CADLito-Setup-{v}.exe",
+      "stilleArgumente": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /MERGETASKS=\"!desktopicon\"",
+      "erstinstallationsArgumente": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /CURRENTUSER /MERGETASKS=\"!desktopicon\"",
+      "kanaele": { "stabil": { "vorabversionen": false }, "test": { "vorabversionen": true } },
+      "gesperrteVersionen": [],
+      "updateInfoDatei": "SHA256SUMS.txt",
+      "erkennung": {
+        "exe": "cadcraft.exe",
+        "anzeigeName": "CADLito",
+        "bekanntePfade": [
+          "%LOCALAPPDATA%\\Programs\\CADLito\\cadcraft.exe",
+          "D:\\Desktop\\Projekte\\CADLito\\cadcraft\\target\\release\\cadcraft.exe"
+        ]
+      },
+      "symbol": { "kuerzel": "CAD", "farbe": "#7A4FD6" },
+      "selbstUpdate": { "aktiv": false }
     }
   ]
 }
