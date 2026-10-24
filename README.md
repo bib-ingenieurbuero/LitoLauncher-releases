@@ -1,6 +1,6 @@
 # Lito Launcher
 
-Startprogramm des Bassam Ingenieurbüros für **BIB Lito**, **AVALito** und **PDFLito**.
+Startprogramm des Bassam Ingenieurbüros für **BIB Lito**, **AVALito**, **PDFLito**, **ProjectLito** und **CADLito**.
 Der Launcher zeigt alle drei Programme mit installierter und neuester Version, installiert sie
 und sorgt dafür, dass beim Öffnen eines Programms ein verfügbares Update **sofort** geladen wird.
 Er aktualisiert sich auch selbst.
@@ -12,7 +12,7 @@ Dieses Repository enthält nur die fertigen Programmdateien (kein Quellcode) und
 
 1. Unter **Releases** die neueste Version öffnen und **`LitoLauncher-win-Setup.exe`** herunterladen.
 2. Die Datei doppelklicken. Die Installation braucht keine Administratorrechte und dauert wenige Sekunden.
-3. Danach startet der Launcher. Die Verknüpfungen „BIB Lito“, „AVALito“ und „PDFLito“ auf dem Desktop
+3. Danach startet der Launcher. Die Verknüpfungen „BIB Lito“, „AVALito“, „PDFLito“, „ProjectLito“ und „CADLito“ auf dem Desktop
    und im Startmenü öffnen die Programme ab jetzt über den Launcher – immer in der neuesten Version.
 
 **Hinweis zu Windows SmartScreen:** Beim ersten Start kann „Der Computer wurde durch Windows geschützt“
@@ -22,7 +22,7 @@ erscheinen, weil das Setup (noch) nicht digital signiert ist. Auf **„Weitere I
 ## Deinstallieren
 
 Windows-Einstellungen → Apps → „Lito Launcher“ → Deinstallieren. Die ursprünglichen Verknüpfungen der
-Programme werden dabei wiederhergestellt; BIB Lito, AVALito und PDFLito bleiben installiert.
+Programme werden dabei wiederhergestellt; BIB Lito, AVALito, PDFLito, ProjectLito und CADLito bleiben installiert.
 
 ## katalog.json – zentrale Steuerung aller Geräte
 
