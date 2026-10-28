@@ -109,8 +109,7 @@
         "exe": "cadcraft.exe",
         "anzeigeName": "CADLito",
         "bekanntePfade": [
-          "%LOCALAPPDATA%\\Programs\\CADLito\\cadcraft.exe",
-          "D:\\Desktop\\Projekte\\CADLito\\cadcraft\\target\\release\\cadcraft.exe"
+          "%LOCALAPPDATA%\\Programs\\CADLito\\cadcraft.exe"
         ]
       },
       "symbol": { "kuerzel": "CAD", "farbe": "#7A4FD6" },
