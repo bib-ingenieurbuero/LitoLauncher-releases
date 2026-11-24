@@ -3,7 +3,8 @@
   "programme": [
     {
       "id": "bib",
-      "name": "BIB Lito",
+      "name": "BIB Aufnahme",
+      "alteNamen": ["BIB Lito"],
       "beschreibung": "Beweissicherung, Kartierung und Aufmaß für Bauprojekte",
       "repo": "bib-ingenieurbuero/BIBLito-releases",
       "installerArt": "velopack",
@@ -19,12 +20,13 @@
         "velopackOrdner": "BIBLito",
         "bekanntePfade": []
       },
-      "symbol": { "kuerzel": "BIB", "farbe": "#F26B2A" },
+      "symbol": { "kuerzel": "BIB", "farbe": "#F26B2A", "datei": "aufnahme" },
       "selbstUpdate": { "aktiv": true, "abVersion": "0.2.2" }
     },
     {
       "id": "ava",
-      "name": "AVALito",
+      "name": "BIB AVA",
+      "alteNamen": ["AVALito"],
       "beschreibung": "Ausschreibung, Vergabe und Abrechnung",
       "repo": "ing-bassam/AVALito-releases",
       "installerArt": "nsis",
@@ -42,12 +44,13 @@
           "%ProgramFiles%\\AVALito\\AVALito.exe"
         ]
       },
-      "symbol": { "kuerzel": "AVA", "farbe": "#2A7DF2" },
+      "symbol": { "kuerzel": "AVA", "farbe": "#2A7DF2", "datei": "ava" },
       "selbstUpdate": { "aktiv": true, "abVersion": "0.3.2" }
     },
     {
       "id": "pdf",
-      "name": "PDFLito",
+      "name": "BIB PDF",
+      "alteNamen": ["PDFLito"],
       "beschreibung": "PDF-Werkzeuge für das Büro",
       "repo": "bib-ingenieurbuero/PDFLito-releases",
       "installerArt": "inno",
@@ -67,12 +70,13 @@
         ],
         "weitereExe": ["pdflito-cli.exe"]
       },
-      "symbol": { "kuerzel": "PDF", "farbe": "#D93A3A" },
+      "symbol": { "kuerzel": "PDF", "farbe": "#D93A3A", "datei": "pdf" },
       "selbstUpdate": { "aktiv": false }
     },
     {
       "id": "projectlito",
-      "name": "ProjectLito",
+      "name": "BIB Terminplan",
+      "alteNamen": ["ProjectLito"],
       "beschreibung": "Bauablaufplanung und Bauzeitenpläne",
       "repo": "bib-ingenieurbuero/ProjectLito-releases",
       "installerArt": "nsis",
@@ -90,12 +94,13 @@
           "%ProgramFiles%\\ProjectLito\\ProjectLito.exe"
         ]
       },
-      "symbol": { "kuerzel": "PL", "farbe": "#1A6B3C" },
+      "symbol": { "kuerzel": "PL", "farbe": "#1A6B3C", "datei": "terminplan" },
       "selbstUpdate": { "aktiv": false }
     },
     {
       "id": "cad",
-      "name": "CADLito",
+      "name": "BIB CAD",
+      "alteNamen": ["CADLito"],
       "beschreibung": "CAD-Zeichnen mit Aufmaß und GAEB-Export (X31)",
       "repo": "ing-bassam/CADLito-releases",
       "installerArt": "inno",
@@ -112,7 +117,7 @@
           "%LOCALAPPDATA%\\Programs\\CADLito\\cadcraft.exe"
         ]
       },
-      "symbol": { "kuerzel": "CAD", "farbe": "#7A4FD6" },
+      "symbol": { "kuerzel": "CAD", "farbe": "#7A4FD6", "datei": "cad" },
       "selbstUpdate": { "aktiv": false }
     }
   ]
