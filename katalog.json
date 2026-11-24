@@ -3,8 +3,8 @@
   "programme": [
     {
       "id": "bib",
-      "name": "BIB Aufnahme",
-      "alteNamen": ["BIB Lito"],
+      "name": "BIB Plan",
+      "alteNamen": ["BIB Lito", "BIB Aufnahme"],
       "beschreibung": "Beweissicherung, Kartierung und Aufmaß für Bauprojekte",
       "repo": "bib-ingenieurbuero/BIBLito-releases",
       "installerArt": "velopack",
@@ -20,7 +20,7 @@
         "velopackOrdner": "BIBLito",
         "bekanntePfade": []
       },
-      "symbol": { "kuerzel": "BIB", "farbe": "#F26B2A", "datei": "aufnahme" },
+      "symbol": { "kuerzel": "BIB", "farbe": "#F26B2A", "datei": "plan" },
       "selbstUpdate": { "aktiv": true, "abVersion": "0.2.2" }
     },
     {
