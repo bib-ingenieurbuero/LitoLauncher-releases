@@ -1,5 +1,8 @@
 # BIB Launcher
 
+> **Hinweis:** Diese Ablage enthält die Arbeitsfassung, mit der das Ingenieurbüro selbst arbeitet. Sie ist nicht für
+> Dritte bestimmt und wird ohne Zusagen bereitgestellt. Sicherheitslücken bitte an sicherheit@ing-bassam.de melden.
+
 Startprogramm des Bassam Ingenieurbüros für **BIB Plan**, **AVALito**, **PDFLito**, **ProjectLito** und **CADLito**.
 Der Launcher zeigt alle drei Programme mit installierter und neuester Version, installiert sie
 und sorgt dafür, dass beim Öffnen eines Programms ein verfügbares Update **sofort** geladen wird.
